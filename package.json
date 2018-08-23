@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "did-jwt": "^0.0.8",
+    "did-resolver": "^0.0.4",
+    "ethr-did-resolver": "^0.1.1"
+  },
+  "scripts": {
+    "start": "babel-node src/index.js --presets es2015"
+  },
+  "name": "ex2",
+  "version": "1.0.0",
+  "description": "An experiment to verify JWTs created by the android & ios uPort mobile app",
+  "main": "src/index.js",
+  "author": "mircea.nistor@consensys.net",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
