@@ -15,3 +15,13 @@ verifyJWT(androidResponse, {audience: 'did:ethr:0xa9e3232b61bdb672712b9ae3319506
     console.log(did)
     console.log("all done")
 })
+
+verifyJWT(iosResponse, {audience: 'did:ethr:0xa9e3232b61bdb672712b9ae33195069d8d651c1a'}).then((payload, doc, did, signer, jwt) => {
+	console.log("\n\n\npayload:")
+    console.log(payload)
+    console.log("\n\n\ndoc:")
+    console.log(doc)
+    console.log("\n\n\ndid:")
+    console.log(did)
+    console.log("all done")
+})
